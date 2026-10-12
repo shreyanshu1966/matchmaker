@@ -1,0 +1,515 @@
+[
+  {
+    "id": "n_c_011_2",
+    "customerId": "c_011",
+    "authorId": "mm_arjun",
+    "authorName": "Arjun Mehta",
+    "type": "General",
+    "body": "Sent the onboarding form. He asked whether we have NRI profiles – he's considering a Master's in design abroad in about 2 years, so someone open to moving would be a plus.",
+    "createdAt": "2026-10-11T01:50:00.000Z"
+  },
+  {
+    "id": "n_c_011_1",
+    "customerId": "c_011",
+    "authorId": "mm_arjun",
+    "authorName": "Arjun Mehta",
+    "type": "Call",
+    "body": "Inbound lead via Instagram. Nikhil (28, Nair, product designer at Swiggy) wants someone creative – 'a person with a side project or a weird hobby'. Ideally from Kerala but 'not necessary at all'. Parents are in Kochi; he visits every couple of months and wants a partner who'd enjoy those trips.",
+    "createdAt": "2026-10-11T00:13:00.000Z"
+  },
+  {
+    "id": "n_c_002_3",
+    "customerId": "c_002",
+    "authorId": "mm_priya",
+    "authorName": "Priya Sharma",
+    "type": "General",
+    "body": "Still waiting on his photographs and kundli (his mother insists on having it on file, though Rohan says matching isn't needed).",
+    "createdAt": "2026-10-10T02:29:00.000Z"
+  },
+  {
+    "id": "n_c_016_3",
+    "customerId": "c_016",
+    "authorId": "mm_arjun",
+    "authorName": "Arjun Mehta",
+    "type": "Call",
+    "body": "Ishaan and Neha spoke on the phone for an hour! Meeting set for Sunday brunch at Khan Market. Brief her on his background beforehand.",
+    "createdAt": "2026-10-10T01:15:00.000Z"
+  },
+  {
+    "id": "n_c_001_2",
+    "customerId": "c_001",
+    "authorId": "mm_priya",
+    "authorName": "Priya Sharma",
+    "type": "General",
+    "body": "Payment received for the 6-month plan. Need her ID and salary slip to move her to Onboarding. She's vegetarian at home but eats egg outside; not fussy about the partner's diet, but said 'drinking only socially, please'. Prefers someone a little older (29–33), not much more.",
+    "createdAt": "2026-10-09T23:10:00.000Z"
+  },
+  {
+    "id": "n_c_001_1",
+    "customerId": "c_001",
+    "authorId": "mm_priya",
+    "authorName": "Priya Sharma",
+    "type": "Call",
+    "body": "Intro call with Ananya and her mother (Mrs. Kulkarni). Mom did most of the talking at first: she prefers a Pune-based Maharashtrian family, ideally Brahmin but said it's 'not a must'. Ananya herself is fine relocating to Bangalore for the right person. She wants someone who reads – she's in two book clubs – and was clear she doesn't want a 'just Netflix and IPL' kind of guy.",
+    "createdAt": "2026-10-09T04:39:00.000Z"
+  },
+  {
+    "id": "n_c_006_3",
+    "customerId": "c_006",
+    "authorId": "mm_priya",
+    "authorName": "Priya Sharma",
+    "type": "Call",
+    "body": "Hardik and Mahima both said yes! First meeting fixed for Saturday at a café in Prahlad Nagar; families to meet afterwards if it goes well.",
+    "createdAt": "2026-10-09T02:49:00.000Z"
+  },
+  {
+    "id": "n_c_017_3",
+    "customerId": "c_017",
+    "authorId": "mm_arjun",
+    "authorName": "Arjun Mehta",
+    "type": "Call",
+    "body": "Talking to Sharon for 2 weeks now. Going well – they've met twice and she came to one of his gigs. He's asked us to hold other introductions for now.",
+    "createdAt": "2026-10-09T02:18:00.000Z"
+  },
+  {
+    "id": "n_c_012_2",
+    "customerId": "c_012",
+    "authorId": "mm_arjun",
+    "authorName": "Arjun Mehta",
+    "type": "Meeting",
+    "body": "Met Khushi at our Bandra office. She's a CA at KPMG and wants to keep working after marriage – 'that's not up for discussion'. Would prefer someone outside the family diamond trade, with a professional background. Fine with a nuclear family set-up. Loves travel, Sudoku and theatre at Prithvi.",
+    "createdAt": "2026-10-08T03:51:00.000Z"
+  },
+  {
+    "id": "n_c_004_3",
+    "customerId": "c_004",
+    "authorId": "mm_priya",
+    "authorName": "Priya Sharma",
+    "type": "Call",
+    "body": "Shared 3 profiles verbally. He liked the one who learns Bharatanatyam, felt the CA profile was too 'corporate'. Asked if we can find someone 27–30, not younger – feels the age gap matters to him.",
+    "createdAt": "2026-10-08T00:23:00.000Z"
+  },
+  {
+    "id": "n_c_013_3",
+    "customerId": "c_013",
+    "authorId": "mm_arjun",
+    "authorName": "Arjun Mehta",
+    "type": "Call",
+    "body": "Gurpreet will be in India from Dec 15 to Jan 10 and wants to meet 3–4 shortlisted girls in that window. Prefers someone whose degree transfers well to Canada (nursing, IT, accounting). Turban not an issue either way for him; he keeps a trimmed beard.",
+    "createdAt": "2026-10-07T03:03:00.000Z"
+  },
+  {
+    "id": "n_c_005_3",
+    "customerId": "c_005",
+    "authorId": "mm_priya",
+    "authorName": "Priya Sharma",
+    "type": "General",
+    "body": "Sent Ishaan's and Tarun's profiles. She's reviewing over the weekend; liked that Ishaan plays sport. Follow up Monday.",
+    "createdAt": "2026-10-06T23:33:00.000Z"
+  },
+  {
+    "id": "n_c_002_2",
+    "customerId": "c_002",
+    "authorId": "mm_priya",
+    "authorName": "Priya Sharma",
+    "type": "Meeting",
+    "body": "Met Rohan at Cyber Hub. Runs marathons and cooks elaborate meals on weekends. Values ambition – said he'd like a partner with her own career goals rather than someone who plans to quit after marriage. Height isn't a big deal for him. Asked us to keep the search discreet and not show his profile to anyone at Zomato.",
+    "createdAt": "2026-10-06T02:07:00.000Z"
+  },
+  {
+    "id": "n_c_007_3",
+    "customerId": "c_007",
+    "authorId": "mm_priya",
+    "authorName": "Priya Sharma",
+    "type": "Call",
+    "body": "In conversation with Soumyadeep (sent 3 weeks ago) – two video calls and one dinner so far. She likes that he's a good listener, but is unsure about his plan to move cities next year. Check in after their next meeting.",
+    "createdAt": "2026-10-06T01:22:00.000Z"
+  },
+  {
+    "id": "n_c_014_3",
+    "customerId": "c_014",
+    "authorId": "mm_arjun",
+    "authorName": "Arjun Mehta",
+    "type": "Call",
+    "body": "Didn't like the first batch – felt the men were 'looking for a homemaker with a degree'. Wants someone genuinely supportive of her career. Also mentioned she'd love a partner who enjoys cooking, because she doesn't.",
+    "createdAt": "2026-10-05T03:52:00.000Z"
+  },
+  {
+    "id": "n_c_015_3",
+    "customerId": "c_015",
+    "authorId": "mm_arjun",
+    "authorName": "Arjun Mehta",
+    "type": "General",
+    "body": "Sent Kriti's profile; he asked for more time. Also sent Devika – her family wants to know if he'd ever move back to Kolkata (he says 'maybe in 5 years').",
+    "createdAt": "2026-10-04T00:30:00.000Z"
+  },
+  {
+    "id": "n_c_012_1",
+    "customerId": "c_012",
+    "authorId": "mm_arjun",
+    "authorName": "Arjun Mehta",
+    "type": "Call",
+    "body": "Khushi's father (Mr. Shah, diamond business at Opera House) called. Strictly Jain diet – no onion or garlic at home; partner must at least be vegetarian. They'd prefer a Shwetambar Jain family from Mumbai.",
+    "createdAt": "2026-10-03T05:06:00.000Z"
+  },
+  {
+    "id": "n_c_003_3",
+    "customerId": "c_003",
+    "authorId": "mm_priya",
+    "authorName": "Priya Sharma",
+    "type": "General",
+    "body": "ID, degree and income verified. Marked Profile Verified. Next: shortlist doctors / professionals in Hyderabad and Bangalore aged 30–36. Brother hinted that a bigger city like Bangalore is fine only if the boy's family is close by.",
+    "createdAt": "2026-10-03T02:02:00.000Z"
+  },
+  {
+    "id": "n_c_009_3",
+    "customerId": "c_009",
+    "authorId": "mm_priya",
+    "authorName": "Priya Sharma",
+    "type": "General",
+    "body": "Engagement confirmed for December! Marked as Matched. Send the congratulations hamper and ask for a testimonial after the wedding.",
+    "createdAt": "2026-10-02T02:30:00.000Z"
+  },
+  {
+    "id": "n_c_013_2",
+    "customerId": "c_013",
+    "authorId": "mm_arjun",
+    "authorName": "Arjun Mehta",
+    "type": "General",
+    "body": "Verified PR card and employment letter (Senior Software Developer at RBC). Moved to Profile Verified.",
+    "createdAt": "2026-10-01T02:20:00.000Z"
+  },
+  {
+    "id": "n_c_019_3",
+    "customerId": "c_019",
+    "authorId": "mm_arjun",
+    "authorName": "Arjun Mehta",
+    "type": "General",
+    "body": "Roka done! Marked as Matched. Varun's sister asked about our services for her brother-in-law – referral lead.",
+    "createdAt": "2026-09-30T01:01:00.000Z"
+  },
+  {
+    "id": "n_c_002_1",
+    "customerId": "c_002",
+    "authorId": "mm_priya",
+    "authorName": "Priya Sharma",
+    "type": "Call",
+    "body": "First call with Rohan. Very articulate, knows what he wants. His previous long-term relationship ended last year when she moved to London, so he's wary of anyone planning to move abroad – wants someone settled in Delhi NCR. Family lives in Rajouri Garden; parents are easy-going but would like a Punjabi girl 'if possible'.",
+    "createdAt": "2026-09-29T21:17:00.000Z"
+  },
+  {
+    "id": "n_c_003_2",
+    "customerId": "c_003",
+    "authorId": "mm_priya",
+    "authorName": "Priya Sharma",
+    "type": "Meeting",
+    "body": "Met Fatima at the clinic after her OPD. Warm, quietly funny. She prays regularly but isn't rigid; wants a partner who respects that, but she's not looking for someone very conservative. Does not want to move abroad – her parents are getting older and she's the only daughter. Loves Urdu poetry and old Hindi film music.",
+    "createdAt": "2026-09-28T05:28:00.000Z"
+  },
+  {
+    "id": "n_c_014_2",
+    "customerId": "c_014",
+    "authorId": "mm_arjun",
+    "authorName": "Arjun Mehta",
+    "type": "Call",
+    "body": "She'd like someone who is also in medicine or at least understands erratic hours. Not keen on very tall men – joked that 'anything above 6'2\" makes me feel like a child'. Wants to stay in Bangalore; her practice is just building up.",
+    "createdAt": "2026-09-26T23:26:00.000Z"
+  },
+  {
+    "id": "n_c_013_1",
+    "customerId": "c_013",
+    "authorId": "mm_arjun",
+    "authorName": "Arjun Mehta",
+    "type": "Call",
+    "body": "Video call with Gurpreet (Toronto, PR) and his parents in Ludhiana. They want a Sikh girl, preferably Jat Sikh, who is open to moving to Canada. Gurpreet is fine with a non-Jat Sikh family; his mother less so.",
+    "createdAt": "2026-09-26T02:48:00.000Z"
+  },
+  {
+    "id": "n_c_005_2",
+    "customerId": "c_005",
+    "authorId": "mm_priya",
+    "authorName": "Priya Sharma",
+    "type": "Call",
+    "body": "Simran is clear: no smokers; she drinks socially herself. Wants someone 30–34, ideally in Delhi/Gurugram, but would consider Mumbai for the right person. She laughed that she's 5'7\" and wants someone taller 'so I can wear heels'. Likes men who are well-read and can hold a debate without getting defensive.",
+    "createdAt": "2026-09-24T03:53:00.000Z"
+  },
+  {
+    "id": "n_c_015_2",
+    "customerId": "c_015",
+    "authorId": "mm_arjun",
+    "authorName": "Arjun Mehta",
+    "type": "Meeting",
+    "body": "Met Rahul at BKC. Long hours and lots of travel. Wants someone independent who has her own social circle and won't mind his schedule. Plays squash, loves Coke Studio and Bengali sweets (grew up in Kolkata, after all).",
+    "createdAt": "2026-09-22T23:07:00.000Z"
+  },
+  {
+    "id": "n_c_020_3",
+    "customerId": "c_020",
+    "authorId": "mm_arjun",
+    "authorName": "Arjun Mehta",
+    "type": "General",
+    "body": "Janani has decided to stop the search for now – she's going to Boston on a 1-year postdoc fellowship. Closed at her request; may reactivate next year.",
+    "createdAt": "2026-09-22T04:41:00.000Z"
+  },
+  {
+    "id": "n_c_016_2",
+    "customerId": "c_016",
+    "authorId": "mm_arjun",
+    "authorName": "Arjun Mehta",
+    "type": "Meeting",
+    "body": "Met at her office. She's a trained Kathak dancer and teaches kids at an NGO on weekends. Fine with a non-Brahmin family, but her parents want at least a Hindu North Indian family. She does not want to live with in-laws immediately after marriage – maybe later.",
+    "createdAt": "2026-09-22T01:17:00.000Z"
+  },
+  {
+    "id": "n_c_003_1",
+    "customerId": "c_003",
+    "authorId": "mm_priya",
+    "authorName": "Priya Sharma",
+    "type": "Call",
+    "body": "Spoke with Fatima and her elder brother Imran (he manages the profile). Family is originally from Lucknow, settled in Hyderabad for 15 years. They want a Sunni family, well educated – ideally a doctor or someone in a similarly demanding profession who 'understands night shifts'.",
+    "createdAt": "2026-09-21T22:30:00.000Z"
+  },
+  {
+    "id": "n_c_004_2",
+    "customerId": "c_004",
+    "authorId": "mm_priya",
+    "authorName": "Priya Sharma",
+    "type": "Meeting",
+    "body": "Met Karthik in Indiranagar. Plays Carnatic violin and trains for half-marathons. Wants a working partner, preferably in tech or research, who's okay staying in Bangalore long-term – he turned down a transfer to Zurich to stay near his parents. Said he gets along better with people who are 'calm, not too party-type'.",
+    "createdAt": "2026-09-21T00:59:00.000Z"
+  },
+  {
+    "id": "n_c_008_3",
+    "customerId": "c_008",
+    "authorId": "mm_priya",
+    "authorName": "Priya Sharma",
+    "type": "General",
+    "body": "Vikram asked to pause for ~2 months – his father is unwell and he's handling the business alone. Do NOT send profiles until he reaches out. Check in after Diwali.",
+    "createdAt": "2026-09-19T20:34:00.000Z"
+  },
+  {
+    "id": "n_c_017_2",
+    "customerId": "c_017",
+    "authorId": "mm_arjun",
+    "authorName": "Arjun Mehta",
+    "type": "Call",
+    "body": "He's open to a non-Catholic Christian, and would even consider someone from another religion if she's okay with a church wedding and raising kids with Christian values. Doesn't want someone rigid about food – 'I'm not giving up my pork vindaloo'.",
+    "createdAt": "2026-09-17T20:42:00.000Z"
+  },
+  {
+    "id": "n_c_006_2",
+    "customerId": "c_006",
+    "authorId": "mm_priya",
+    "authorName": "Priya Sharma",
+    "type": "Meeting",
+    "body": "Hardik is more modern than his parents suggested – travels to trade fairs in Germany, loves cricket and road trips to Kutch. Would like someone who has worked and may want to continue working from Ahmedabad. Not keen on Mumbai girls ('too fast-paced' – his words; will gently push back).",
+    "createdAt": "2026-09-17T00:17:00.000Z"
+  },
+  {
+    "id": "n_c_015_1",
+    "customerId": "c_015",
+    "authorId": "mm_arjun",
+    "authorName": "Arjun Mehta",
+    "type": "Call",
+    "body": "Rahul's family is in Kolkata (Marwari, Agarwal); he's been in Mumbai for 4 years. Parents want a vegetarian Marwari girl; Rahul is okay with any vegetarian family from a business or professional background.",
+    "createdAt": "2026-09-16T05:01:00.000Z"
+  },
+  {
+    "id": "n_c_007_2",
+    "customerId": "c_007",
+    "authorId": "mm_priya",
+    "authorName": "Priya Sharma",
+    "type": "Call",
+    "body": "She had a bad experience with someone who expected her to quit work after kids. Very important that the partner shares housework and sees her career as equal to his. Open to someone divorced as long as there are no kids from the earlier marriage.",
+    "createdAt": "2026-09-14T00:59:00.000Z"
+  },
+  {
+    "id": "n_c_004_1",
+    "customerId": "c_004",
+    "authorId": "mm_priya",
+    "authorName": "Priya Sharma",
+    "type": "Call",
+    "body": "Karthik's mother called first – very particular about horoscope matching and wants an Iyer girl, strictly vegetarian. On a separate call Karthik was more relaxed: 'vegetarian is a must, the rest is amma's list.' He's okay with Iyengar or other Tamil Brahmin families, even Kannada/Telugu Brahmin if the family is warm.",
+    "createdAt": "2026-09-12T04:37:00.000Z"
+  },
+  {
+    "id": "n_c_018_3",
+    "customerId": "c_018",
+    "authorId": "mm_arjun",
+    "authorName": "Arjun Mehta",
+    "type": "General",
+    "body": "Sneha is taking a break – she got promoted and is moving teams. Asked to resume in November. Don't call; she'll WhatsApp when ready.",
+    "createdAt": "2026-09-12T02:53:00.000Z"
+  },
+  {
+    "id": "n_c_014_1",
+    "customerId": "c_014",
+    "authorId": "mm_arjun",
+    "authorName": "Arjun Mehta",
+    "type": "Meeting",
+    "body": "Kavya is a gynaecologist at Manipal Hospitals. Family is from Sirsi (Havyaka Brahmin); parents are very traditional, Kavya is more moderate. Parents want horoscope matching; she's agreed to it 'as a filter, not a decision'.",
+    "createdAt": "2026-09-09T03:52:00.000Z"
+  },
+  {
+    "id": "n_c_006_1",
+    "customerId": "c_006",
+    "authorId": "mm_priya",
+    "authorName": "Priya Sharma",
+    "type": "Call",
+    "body": "Hardik runs the family's polymer business with his father and uncle in Ahmedabad; joint family in Satellite. They need a girl who is comfortable living with the family – non-negotiable for the parents. Vegetarian household, no eggs inside the house.",
+    "createdAt": "2026-09-06T21:46:00.000Z"
+  },
+  {
+    "id": "n_c_016_1",
+    "customerId": "c_016",
+    "authorId": "mm_arjun",
+    "authorName": "Arjun Mehta",
+    "type": "Call",
+    "body": "Neha – HRBP at Adobe Noida. Family from Lucknow, Brahmin, moderately religious. She wants someone 'emotionally mature' – a long relationship ended because he couldn't commit. Prefers 32–37.",
+    "createdAt": "2026-09-05T02:46:00.000Z"
+  },
+  {
+    "id": "n_c_008_2",
+    "customerId": "c_008",
+    "authorId": "mm_priya",
+    "authorName": "Priya Sharma",
+    "type": "Call",
+    "body": "Declined both profiles we shared (Jhanvi and another). Felt they were 'too city'. He wants someone who loves the outdoors and animals (has two dogs and a horse) and doesn't mind the joint family on weekends.",
+    "createdAt": "2026-09-03T23:14:00.000Z"
+  },
+  {
+    "id": "n_c_005_1",
+    "customerId": "c_005",
+    "authorId": "mm_priya",
+    "authorName": "Priya Sharma",
+    "type": "Meeting",
+    "body": "Onboarding meeting with Simran and her father (retired Colonel). The family is Sikh but not very orthodox – dad said a clean-shaven Sikh or a Punjabi Hindu boy is fine, but he must respect the family's gurdwara visits. Simran wants someone who isn't intimidated by her long hours at the firm.",
+    "createdAt": "2026-09-01T23:36:00.000Z"
+  },
+  {
+    "id": "n_c_018_2",
+    "customerId": "c_018",
+    "authorId": "mm_arjun",
+    "authorName": "Arjun Mehta",
+    "type": "Call",
+    "body": "Met Dibyendu once – said he was nice but kept talking about his ex. Not proceeding.",
+    "createdAt": "2026-09-01T22:27:00.000Z"
+  },
+  {
+    "id": "n_c_017_1",
+    "customerId": "c_017",
+    "authorId": "mm_arjun",
+    "authorName": "Arjun Mehta",
+    "type": "Meeting",
+    "body": "Joel – Goan Catholic, family in Margao, he lives in Bandra. Would ideally like a Catholic girl; parents insist on a church wedding. Plays bass in a weekend band and is a die-hard Liverpool fan.",
+    "createdAt": "2026-08-28T22:17:00.000Z"
+  },
+  {
+    "id": "n_c_009_2",
+    "customerId": "c_009",
+    "authorId": "mm_priya",
+    "authorName": "Priya Sharma",
+    "type": "Call",
+    "body": "Met Anil twice; families met in Banjara Hills. Both sides positive. Discussing dates for the engagement.",
+    "createdAt": "2026-08-27T23:27:00.000Z"
+  },
+  {
+    "id": "n_c_020_2",
+    "customerId": "c_020",
+    "authorId": "mm_arjun",
+    "authorName": "Arjun Mehta",
+    "type": "Call",
+    "body": "Says many matches are intimidated by the PhD. She's frustrated. Suggested widening to Bangalore and Hyderabad, and NRI profiles in the US. She agreed to the US.",
+    "createdAt": "2026-08-25T01:57:00.000Z"
+  },
+  {
+    "id": "n_c_019_2",
+    "customerId": "c_019",
+    "authorId": "mm_arjun",
+    "authorName": "Arjun Mehta",
+    "type": "Call",
+    "body": "Varun and Bhavna have met four times; families met at a restaurant in Koregaon Park. Very positive.",
+    "createdAt": "2026-08-23T01:02:00.000Z"
+  },
+  {
+    "id": "n_c_007_1",
+    "customerId": "c_007",
+    "authorId": "mm_priya",
+    "authorName": "Priya Sharma",
+    "type": "Meeting",
+    "body": "Priyanka is from Kolkata (Salt Lake) and has been in Bangalore for 6 years. Loves Rabindrasangeet, world cinema and weekend treks. Parents would prefer a Bengali family; Priyanka says 'Bengali is a bonus, not a requirement' – but food matters: she wants someone who happily eats fish and meat.",
+    "createdAt": "2026-08-22T20:35:00.000Z"
+  },
+  {
+    "id": "n_c_010_3",
+    "customerId": "c_010",
+    "authorId": "mm_priya",
+    "authorName": "Priya Sharma",
+    "type": "General",
+    "body": "Closed. Refund not applicable (beyond 30 days). Keep in touch for referrals – his cousin may sign up.",
+    "createdAt": "2026-08-19T01:45:00.000Z"
+  },
+  {
+    "id": "n_c_010_2",
+    "customerId": "c_010",
+    "authorId": "mm_priya",
+    "authorName": "Priya Sharma",
+    "type": "Call",
+    "body": "Sameer informed us that he has found someone through a family friend. Closing the profile. Feedback: happy with the quality of profiles but felt we were slow in the first month.",
+    "createdAt": "2026-08-18T01:04:00.000Z"
+  },
+  {
+    "id": "n_c_008_1",
+    "customerId": "c_008",
+    "authorId": "mm_priya",
+    "authorName": "Priya Sharma",
+    "type": "Meeting",
+    "body": "Vikram – divorced 2 years ago (no children; the marriage lasted 14 months). Family runs two heritage properties near Jaipur. He's understandably cautious: wants someone mature, 29–34, open to divorcees, and comfortable with a slower life in Jaipur.",
+    "createdAt": "2026-08-12T20:56:00.000Z"
+  },
+  {
+    "id": "n_c_020_1",
+    "customerId": "c_020",
+    "authorId": "mm_arjun",
+    "authorName": "Arjun Mehta",
+    "type": "Meeting",
+    "body": "Janani – PhD in computational biology, faculty at IIT Madras. Parents keen on an Iyer alliance; she wants someone intellectually curious and okay with her academic salary being lower than a corporate one.",
+    "createdAt": "2026-08-03T03:02:00.000Z"
+  },
+  {
+    "id": "n_c_018_1",
+    "customerId": "c_018",
+    "authorId": "mm_arjun",
+    "authorName": "Arjun Mehta",
+    "type": "Meeting",
+    "body": "Sneha, divorced 3 years, no children. Very clear: no one who will judge her for the divorce, and no joint family. Okay with divorced men. Wants someone 34–40 in Mumbai or Pune.",
+    "createdAt": "2026-07-29T03:55:00.000Z"
+  },
+  {
+    "id": "n_c_010_1",
+    "customerId": "c_010",
+    "authorId": "mm_priya",
+    "authorName": "Priya Sharma",
+    "type": "Call",
+    "body": "Sameer wants a girl from a Mumbai-based family, Sunni, educated and preferably working. His mother wants someone who's 'homely' – we'll need to balance both. He's not keen on anyone who'd want to move abroad.",
+    "createdAt": "2026-07-24T00:11:00.000Z"
+  },
+  {
+    "id": "n_c_009_1",
+    "customerId": "c_009",
+    "authorId": "mm_priya",
+    "authorName": "Priya Sharma",
+    "type": "Meeting",
+    "body": "Divya wants someone from a Telugu family; Reddy preferred by her parents. She's a fitness enthusiast (CrossFit five days a week) and wants a partner who also takes health seriously. Prefers Hyderabad – owns a flat in Gachibowli and won't relocate.",
+    "createdAt": "2026-07-19T01:06:00.000Z"
+  },
+  {
+    "id": "n_c_019_1",
+    "customerId": "c_019",
+    "authorId": "mm_arjun",
+    "authorName": "Arjun Mehta",
+    "type": "Meeting",
+    "body": "Varun – Sindhi family in Pune (Camp area). Wants a partner who loves food and travel as much as he does. Okay with any community. Mom wants someone who will 'gel with the family' – big Sindhi family with lots of get-togethers.",
+    "createdAt": "2026-07-16T04:14:00.000Z"
+  }
+]

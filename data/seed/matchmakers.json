@@ -1,0 +1,14 @@
+[
+  {
+    "id": "mm_priya",
+    "username": "priya",
+    "name": "Priya Sharma",
+    "passwordHash": "$2b$10$1HEyu.HievJsu8KHLDHFJuSwasZgUXXVC2GCIbM89h60CmgteGX0K"
+  },
+  {
+    "id": "mm_arjun",
+    "username": "arjun",
+    "name": "Arjun Mehta",
+    "passwordHash": "$2b$10$n25WYCO3BeeGLKj4ozWMe.3X9CPVIFxrqZgLAvoXg55zf8Td708qe"
+  }
+]
