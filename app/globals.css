@@ -1,0 +1,178 @@
+@import "tailwindcss";
+
+/*
+ * TDC Matchmaker design tokens.
+ * Ivory canvas, deep plum primary, blush/rose accents, gold for "High Potential".
+ */
+@theme {
+  --color-ivory: #fbf7f2;
+  --color-cream: #f5ede4;
+  --color-sand: #ece1d6;
+  --color-line: #e9ddd3;
+
+  --color-ink: #2b1f29;
+  --color-ink-soft: #5d4f5a;
+  --color-ink-muted: #8a7b86;
+
+  --color-plum-50: #f8f2f7;
+  --color-plum-100: #efe2ed;
+  --color-plum-200: #dec4da;
+  --color-plum-300: #c49dbe;
+  --color-plum-400: #a26f99;
+  --color-plum-500: #824f7a;
+  --color-plum-600: #6a3c63;
+  --color-plum-700: #552f50;
+  --color-plum-800: #42243e;
+  --color-plum-900: #2d1729;
+
+  --color-blush-50: #fdf5f3;
+  --color-blush-100: #fbe7e3;
+  --color-blush-200: #f6d0c9;
+  --color-blush-300: #eeaea4;
+  --color-blush-400: #e3887c;
+  --color-blush-500: #d0665a;
+  --color-blush-600: #b44d43;
+  --color-blush-700: #933c35;
+
+  --color-gold-50: #fcf7ea;
+  --color-gold-100: #f7ebcb;
+  --color-gold-200: #eed79a;
+  --color-gold-300: #e0bd65;
+  --color-gold-400: #cca23f;
+  --color-gold-500: #ad852b;
+  --color-gold-600: #8a6820;
+  --color-gold-700: #6b501a;
+
+  --shadow-soft: 0 1px 2px rgb(66 36 62 / 0.04), 0 4px 16px -4px rgb(66 36 62 / 0.08);
+  --shadow-lift: 0 2px 4px rgb(66 36 62 / 0.05), 0 12px 32px -8px rgb(66 36 62 / 0.16);
+  --shadow-glow: 0 0 0 1px rgb(204 162 63 / 0.35), 0 10px 30px -10px rgb(204 162 63 / 0.45);
+
+  --animate-shimmer: shimmer 1.6s ease-in-out infinite;
+  --animate-fade-in: fade-in 0.25s ease-out both;
+  --animate-rise: rise 0.35s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+  --animate-slide-in-right: slide-in-right 0.3s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+  --animate-pulse-soft: pulse-soft 2.4s ease-in-out infinite;
+
+  @keyframes shimmer {
+    0% {
+      background-position: -400px 0;
+    }
+    100% {
+      background-position: 400px 0;
+    }
+  }
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes rise {
+    from {
+      opacity: 0;
+      transform: translateY(8px) scale(0.985);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  @keyframes slide-in-right {
+    from {
+      opacity: 0.4;
+      transform: translateX(32px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  @keyframes pulse-soft {
+    0%,
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    50% {
+      opacity: 0.55;
+      transform: scale(0.92);
+    }
+  }
+}
+
+@theme inline {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-fraunces), ui-serif, Georgia, serif;
+}
+
+@layer base {
+  html {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    background-color: var(--color-ivory);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-feature-settings: "cv11", "ss01";
+  }
+
+  ::selection {
+    background: var(--color-blush-200);
+    color: var(--color-plum-900);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-plum-500);
+    outline-offset: 2px;
+  }
+
+  /* Native <dialog> backdrop */
+  dialog::backdrop {
+    background: rgb(45 23 41 / 0.45);
+    backdrop-filter: blur(3px);
+  }
+
+  summary {
+    cursor: pointer;
+  }
+  summary::-webkit-details-marker {
+    display: none;
+  }
+}
+
+@layer components {
+  /* Shimmering placeholder used by <Skeleton /> and AI loading states */
+  .shimmer {
+    background-color: var(--color-cream);
+    background-image: linear-gradient(
+      90deg,
+      transparent 0,
+      rgb(255 255 255 / 0.65) 50%,
+      transparent 100%
+    );
+    background-size: 400px 100%;
+    background-repeat: no-repeat;
+    animation: var(--animate-shimmer);
+  }
+
+  /* Soft paper-like grain for brand surfaces */
+  .brand-surface {
+    background:
+      radial-gradient(120% 80% at 0% 0%, rgb(227 136 124 / 0.35), transparent 60%),
+      radial-gradient(90% 70% at 100% 100%, rgb(204 162 63 / 0.22), transparent 60%),
+      linear-gradient(160deg, var(--color-plum-700), var(--color-plum-900));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
