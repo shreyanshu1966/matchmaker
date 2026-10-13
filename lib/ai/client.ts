@@ -2,6 +2,10 @@
  * Thin wrapper around the OpenAI SDK (v7). The client is created lazily and
  * only when OPENAI_API_KEY is set, so the app works without a key (every
  * caller falls back to deterministic output).
+ *
+ * OPENAI_BASE_URL points the SDK at any OpenAI-compatible endpoint, e.g.
+ * GitHub Models (https://models.github.ai/inference, key = a GitHub token,
+ * model = "openai/gpt-4o-mini").
  */
 import OpenAI from "openai";
 import type { z } from "zod";
@@ -10,6 +14,7 @@ export const DEFAULT_TIMEOUT_MS = 20_000;
 
 let cachedClient: OpenAI | null = null;
 let cachedKey: string | null = null;
+let cachedBaseUrl: string | undefined;
 
 export function isAiEnabled(): boolean {
   return Boolean(process.env.OPENAI_API_KEY?.trim());
@@ -23,9 +28,11 @@ export function getModel(): string {
 export function getClient(): OpenAI | null {
   const key = process.env.OPENAI_API_KEY?.trim();
   if (!key) return null;
-  if (!cachedClient || cachedKey !== key) {
-    cachedClient = new OpenAI({ apiKey: key, timeout: DEFAULT_TIMEOUT_MS, maxRetries: 0 });
+  const baseURL = process.env.OPENAI_BASE_URL?.trim() || undefined;
+  if (!cachedClient || cachedKey !== key || cachedBaseUrl !== baseURL) {
+    cachedClient = new OpenAI({ apiKey: key, baseURL, timeout: DEFAULT_TIMEOUT_MS, maxRetries: 0 });
     cachedKey = key;
+    cachedBaseUrl = baseURL;
   }
   return cachedClient;
 }
@@ -60,7 +67,8 @@ export async function chatJson<S extends z.ZodType>(
   const timeoutMs = opts.timeoutMs ?? DEFAULT_TIMEOUT_MS;
   const model = getModel();
   // Reasoning models (o-series, gpt-5*) reject a custom temperature.
-  const supportsTemperature = !/^(o\d|gpt-5)/i.test(model);
+  // Strip a provider prefix such as "openai/" (GitHub Models) before checking.
+  const supportsTemperature = !/^(o\d|gpt-5)/i.test(model.replace(/^[\w-]+\//, ""));
   const completion = await client.chat.completions.create(
     {
       model,
@@ -75,7 +83,7 @@ export async function chatJson<S extends z.ZodType>(
     { timeout: timeoutMs, maxRetries: 0, signal: AbortSignal.timeout(timeoutMs + 1_000) },
   );
 
-  const choice = completion.choices[0];
+  const choice = completion.choices?.[0];
   const content = choice?.message?.content;
   if (!content) {
     throw new Error(`empty completion (finish_reason=${choice?.finish_reason ?? "unknown"})`);

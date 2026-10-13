@@ -48,7 +48,8 @@ npm run seed                 # regenerate data/seed/*.json (deterministic)
 |---|---|---|
 | `AUTH_SECRET` | in production | Signs the session JWT (≥32 characters) |
 | `OPENAI_API_KEY` | no | Enables the LLM explanations, emails and summaries; without it, the rule-based fallbacks are used |
-| `OPENAI_MODEL` | no | Defaults to `gpt-4o-mini` |
+| `OPENAI_BASE_URL` | no | Any OpenAI-compatible endpoint, e.g. GitHub Models: `https://models.github.ai/inference` (then the key is a GitHub token with Models access) |
+| `OPENAI_MODEL` | no | Defaults to `gpt-4o-mini`; on GitHub Models use `openai/gpt-4o-mini` |
 
 ## Deploying (Vercel)
 Import the repo, set `AUTH_SECRET` (and optionally `OPENAI_API_KEY`), then deploy. On Vercel, changes made in the demo (notes, statuses, matches sent) are saved to the instance's temporary storage, so they reset when the instance restarts. That is fine for a demo; production would use Postgres through `lib/db`.
