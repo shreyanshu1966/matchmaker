@@ -95,7 +95,8 @@ export function fallbackInsight(customer: Profile, m: MatchResult, notes: Note[]
   const lead = m.highlights[0] ?? pos[0]?.text;
   const summary =
     `${displayName(c)} (${ageOf(c)}, ${c.designation} in ${c.city}) is a ${label.toLowerCase()} match` +
-    (lead ? `: ${lead.charAt(0).toLowerCase()}${lead.slice(1).replace(/\.$/, "")}.` : ".");
+    // New sentence (not "match: ...") so names at the start of the reason keep their capital.
+    (lead ? `. ${lead.replace(/\.$/, "")}.` : ".");
 
   const shared = sharedPoints(customer, c);
   const hobby = shared.find((s) => s.key === "hobbies");
